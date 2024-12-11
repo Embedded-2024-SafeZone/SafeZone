@@ -10,7 +10,6 @@ bool BtnState;
 int prevState = 0;
 int currState = 0;
 
-pthread_mutex_t mid;
 int main(){
     BtnState = FALSE;
     wiringPiSetupGpio();
