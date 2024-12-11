@@ -49,8 +49,8 @@ void* handle_button_press(void* arg) {
     int width = 500;
     int height =500;
     const char* email_address = "rkdwlgur0202@naver.com";
-    const char* email_subject = "Subject";
-    const char* email_body = "Email body";
+    const char* email_subject = "Safe-Zone Project";
+    const char* email_body = "Help me!";
     while(BtnState){
         // 영상 촬영
         if (record_video(video_file, duration_ms, framerate, width, height) == 0) {
