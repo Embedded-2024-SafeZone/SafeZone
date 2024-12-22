@@ -11,10 +11,10 @@ void *consumerFunc(void *); //소비자 쓰레드 실행 함수
 
 void* consumerFunc(void* arg){
     for(int i = 0; i<2 ; i++){
-        char* account_sid="AC1751320dc8094d593bd610c4c36bafb8";
-        char* auth_token="04ee95eec4c5c42b196bf1c9e1e0d21c";
+        char* account_sid="<아이디>";
+        char* auth_token="<토큰>";
         char* from_number="+19787974155";
-        char* to_number = "+821029588856";
+        char* to_number = "<번호>";
         char* message = "Help!";
         char *picture_url = "https://demo.twilio.com/logo.png";
         bool verbose = true;
