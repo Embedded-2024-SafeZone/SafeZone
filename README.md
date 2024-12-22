@@ -204,6 +204,9 @@ https://github.com/user-attachments/assets/4e55b3ef-228d-4493-ac2c-16851b3efe77
 
 ![image](https://github.com/user-attachments/assets/60838961-1890-4cc4-a7a6-c306df144028)
 
+## 경로
+https://github.com/Embedded-2024-SafeZone/SafeZone
+
 ---
 
 
