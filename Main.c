@@ -39,6 +39,7 @@ int main(){
             }
             else if(!BtnState){
                 pthread_create(&ServoOffPthread, NULL, rotate_Servo_off, NULL);
+                pthread_join(cameraPthread, NULL);
             }
             delay(200);
         }
