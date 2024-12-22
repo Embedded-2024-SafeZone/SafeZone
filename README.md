@@ -141,6 +141,7 @@ GPIO 핀을 초기화하고, C 언어의 스레드를 설정하여 다음 작업
 #include <wiringPi.h>
 #include <stdlib.h>
 #include "global.h"
+#include "twilio.h"
 
 bool BtnState;
 int prevState = 0;
@@ -175,6 +176,7 @@ int main(){
             }
             else if(!BtnState){
                 pthread_create(&ServoOffPthread, NULL, rotate_Servo_off, NULL);
+                pthread_join(cameraPthread, NULL);
             }
             delay(200);
         }
